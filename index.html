@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Improv.pl - Comedy Events & Workshops in Warsaw</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: #708090; /* Shale */
+            color: #DAA520; /* Goldenrod */
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .section {
+            padding: 4rem 0;
+        }
+
+        h2 {
+            color: #DAA520; /* Goldenrod */
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #DAA520; /* Goldenrod */
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background: #708090; /* Shale */
+            color: #DAA520; /* Goldenrod */
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #DAA520; /* Goldenrod */
+            color: #708090; /* Shale */
+            padding: 1rem 2rem;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 2rem;
+            transition: opacity 0.3s;
+        }
+
+        .cta-button:hover {
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Improv.pl</h1>
+            <p>Live Comedy Events & Workshops in Warsaw Since 2013</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h2>Welcome to Improv.pl</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto;">
+                Based in Warsaw, Poland, Improv.pl has been bringing laughter and learning through 
+                improv comedy since 2013. Join us for unforgettable live performances and transformative workshops!
+            </p>
+
+            <div class="content-grid">
+                <div class="card">
+                    <h3>Live Performances</h3>
+                    <p>Experience hilarious in-person improv comedy shows that will leave you in stitches. 
+                    Our talented performers create spontaneous magic on stage!</p>
+                </div>
+
+                <div class="card">
+                    <h3>Workshops</h3>
+                    <p>Develop valuable skills through our improv training:
+                        • Teamwork & Collaboration<br>
+                        • Critical Thinking<br>
+                        • Creativity Under Pressure</p>
+                </div>
+            </div>
+
+            <a href="#" class="cta-button">Join Us Today!</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Improv.pl | Warsaw, Poland | Established 2013</p>
+        </div>
+    </footer>
+</body>
+</html>
