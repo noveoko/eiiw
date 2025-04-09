@@ -1,4 +1,4 @@
-# eiiw
+# Improv.pl
 
 English Improv in Warsaw
 
